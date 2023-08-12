@@ -24,7 +24,7 @@ export default class ChatGptAI extends LightningElement {
     async getChatGPTdata(){
         const endPoint = "https://api.openai.com/v1/chat/completions";
         const myHeaders = new Headers();
-        myHeaders.append("Authorization", "Bearer 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");
+        myHeaders.append("Authorization", "Type Your Own API");
         myHeaders.append("Content-Type", "application/json");
 
         const raw = JSON.stringify({
